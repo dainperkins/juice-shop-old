@@ -1,4 +1,4 @@
-FROM node:lts-bookworm
+FROM node:12.18.4-alpine3.9
 
 RUN apt-get -y update && apt-get -y install ca-certificates apt-transport-https
 
