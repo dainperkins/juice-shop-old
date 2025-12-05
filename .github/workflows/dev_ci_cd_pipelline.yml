@@ -4,7 +4,7 @@
 #    - target/scan config has already been created
 #    - connectivity / name resolution relies on docker
 #    
-# Variables:
+# Variables (TBD)
 # - Snyk API & Web Environment (in github repo $repo/.github/.snykaw)
 #   + saw_api: defaults to api.probely.com
 #   + saw_target_id: Snyk Web target.
@@ -12,7 +12,10 @@
 #   + scan_settings: default is to use existing targat settings
 #
 # - github secrets
-#   + saw_token 
+#   +   optional   SAW_API_URL                                                   
+#   +   required   SAW_API_KEY
+#   +   required   SAW_AGENT_KEY                                     
+#   +   required   SAW_TARGET_ID
 #
 # - github Context
 #   + target_branch: populated from github context
